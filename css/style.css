@@ -6,23 +6,26 @@ header{
     font-size: 30px;
 }
 
-#menu{
-    height:50px;
-    background-color: #235D79;
-}
 
 nav{
-    background-color: #034769;
+    background-color: #086FA1;
     color:white;
 }
 
 #sidebar li > a{
-    text-indent: 20px;
+    /*text-indent: 20px;*/
     background-color: #63ADD0;
     color:white;
 }
 
 #sidebar li > a:hover{
+    /*text-indent: 20px;*/
+    background-color: #abd7ff;
+    color:white;
+}
+
+
+#sidebar>.active>a{
     background-color:white;
     color:cornflowerblue;
 }
@@ -32,7 +35,24 @@ nav{
     font-size: 20px;
 }
 
+#recom{
+    background-color: white;
+}
+
+#sinkamai{
+    height: 30px;
+    line-height: 30px;
+    color:white;
+    background-color: #034769;
+    font-size: 20px;
+    border-width: 0 20px 0 20px;
+    border-color:white;
+    border-style:solid;
+
+}
+
 article{
+    margin-left: 5px;
     background-color: transparent;
     height:auto;
 }
@@ -65,13 +85,24 @@ article{
 
 #blog>#row>#detail>#yib{
     height: 30px;
-    background-color: #3CA0D0;
-
+    background-color: #FF8900;
+    color:white;
     border: 0;
 }
 
-#recom{
-    background-color: #3CA0D0;
+#blog>#row>#detail>#yib:hover{
+    height: 30px;
+    background-color: #fdd30a;
+    color:white;
+    border: 0;
+}
+
+#doo{
+    height: 60px;
+    margin-bottom: 60px;
+    font-size: 28px;
+    background-color: #63ADD0;
+    color:white;
 }
 
 footer{
