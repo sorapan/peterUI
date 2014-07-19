@@ -31,23 +31,27 @@
 
 <nav id="sidebar" class="col-md-2">
     <ul class="nav row">
+        <li class="sidebar-brand" id="menubrand">เข้าสู่ระบบ</li>
         <li>
             <div id="login_form">
-                <div class="form-group">
+
                 <label for="userlogin">Username :</label>
-                <input class="form-control" id="userlogin" type="text">
-                </div>
+                <input id="userlogin" type="text">
+
                 <label for="passlogin">Password :</label>
-                <input class="form-control" id="passlogin" type="password">
+                <input id="passlogin" type="password">
+
+                <br><input style="border:0;color:white" type="submit" value="Login" >
+
             </div>
         </li>
     </ul>
-    <ul class="nav row">
+    <ul id="menuside" class="nav row">
         <li class="sidebar-brand" id="menubrand">หมวดหมู่สินค้า</li>
-        <li><a href="#">สินค้า</a></li>
-        <li><a href="#">สินค้า</a></li>
-        <li><a href="#">สินค้า</a></li>
-        <li><a href="#">สินค้า</a></li>
+        <li class="opt"><a href="#">สินค้า</a></li>
+        <li class="opt"><a href="#">สินค้า</a></li>
+        <li class="opt"><a href="#">สินค้า</a></li>
+        <li class="opt"><a href="#">สินค้า</a></li>
     </ul>
 </nav>
 

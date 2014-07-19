@@ -7,7 +7,7 @@ header{
 }
 
 
-nav{
+#menubar{
     background-color: #086FA1;
     color:white;
 }
@@ -36,7 +36,27 @@ nav{
 }
 
 #sidebar{
-    margin-top: 60px;
+    background-color: #63ADD0;
+    margin-top: 20px;
+}
+
+#sidebar #menubrand{
+    background-color: #034769;
+    color:white;
+}
+
+#sidebar #login_form{
+    padding: 10px 0 10px 10px;
+}
+
+#sidebar #login_form>input[type='submit']{
+    margin: 10px 0 10px 0;
+    width: 90px;
+    background-color: #034769;
+}
+
+#sidebar>#menuside>.opt>a{
+    color:white;
 }
 
 #recom{
