@@ -17,7 +17,7 @@
 </header>
 
 <nav class="col-md-12">
-    <ul class="nav nav-justified" id="sidebar">
+    <ul class="nav nav-justified" id="menubar">
         <!--<li class="sidebar-brand" id="menubrand">Menu</li>-->
         <li class="active "><a href="#">หน้าแรก</a></li>
         <li><a href="#">สินค้า</a></li>
@@ -29,7 +29,29 @@
     </ul>
 </nav>
 
-<div class="container ">
+<nav id="sidebar" class="col-md-2">
+    <ul class="nav row">
+        <li>
+            <div id="login_form">
+                <div class="form-group">
+                <label for="userlogin">Username :</label>
+                <input class="form-control" id="userlogin" type="text">
+                </div>
+                <label for="passlogin">Password :</label>
+                <input class="form-control" id="passlogin" type="password">
+            </div>
+        </li>
+    </ul>
+    <ul class="nav row">
+        <li class="sidebar-brand" id="menubrand">หมวดหมู่สินค้า</li>
+        <li><a href="#">สินค้า</a></li>
+        <li><a href="#">สินค้า</a></li>
+        <li><a href="#">สินค้า</a></li>
+        <li><a href="#">สินค้า</a></li>
+    </ul>
+</nav>
+
+<div class="col-md-10 container">
     <article>
     <div class="col-md-12" id="recom">
         <h2>สวัสดีครับ</h2>
