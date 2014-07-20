@@ -6,6 +6,9 @@ header{
     font-size: 30px;
 }
 
+#menu{
+    background-color: #086FA1;
+}
 
 #menubar{
     background-color: #086FA1;
@@ -33,6 +36,7 @@ header{
 #menubrand{
     text-align: center;
     font-size: 20px;
+    border-bottom: 5px solid #032a41;
 }
 
 #sidebar{
@@ -68,10 +72,11 @@ header{
     line-height: 30px;
     color:white;
     background-color: #034769;
-    font-size: 20px;
-    border-width: 0 20px 0 20px;
-    border-color:white;
-    border-style:solid;
+    font-size: 18px;
+    /*border-width: 0 20px 0 20px;*/
+    /*border-color:white;*/
+    /*border-style:solid;*/
+    border-bottom: 5px solid #032c43;
 
 }
 
@@ -116,6 +121,7 @@ article{
     background-color: #FF8900;
     color:white;
     border: 0;
+    border-bottom: 5px solid #ca6501;
 }
 
 #blog>#row>#detail>#yib:hover{
@@ -123,6 +129,7 @@ article{
     background-color: #fdd30a;
     color:white;
     border: 0;
+    border-bottom: 5px solid #cfaa0a;
 }
 
 #doo{
@@ -131,6 +138,8 @@ article{
     font-size: 28px;
     background-color: #63ADD0;
     color:white;
+    border:0;
+    border-bottom: 8px solid #446d87;
 }
 
 footer{
